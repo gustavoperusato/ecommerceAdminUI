@@ -343,7 +343,7 @@ export class Product extends Component {
                             </div>
 
                             <div className="modal-body">
-                                    <div class="row">
+                                    <div className="row">
                                         <div className="p-2 w-50 bd-highlight">
                                             <div className="input-group mb-2">
                                                 <label>Código do Produto: </label>
@@ -362,7 +362,7 @@ export class Product extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div className="row">
 
                                         <div className="p-2 w-50 bd-highlight">
                                             <div className="input-group mb-3">
@@ -378,7 +378,7 @@ export class Product extends Component {
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div className="row">
                                         <div className="p-2 bd-highlight">
                                             <div className="input-group mb-3">
                                                 <span className="input-group-text">Descrição</span>
@@ -386,7 +386,7 @@ export class Product extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div className="row">
 
 
                                         <div className="p-2 w-50 bd-highlight">
@@ -402,7 +402,7 @@ export class Product extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div className="row">
 
                                         <div className="p-2 w-50 bd-highlight">
                                             <div className="input-group mb-3">
@@ -418,7 +418,7 @@ export class Product extends Component {
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div className="row">
 
                                         <div className="p-2 w-50 bd-highlight">
                                             <div className="input-group mb-3">
@@ -435,7 +435,7 @@ export class Product extends Component {
                                         </div>
                                     </div>
 
-                                    <div class="row">
+                                    <div className="row">
 
                                         <div className="p-2 w-50 bd-highlight">
                                             <div className="input-group mb-3">
@@ -451,7 +451,7 @@ export class Product extends Component {
                                         </div>
                                     </div>
                             </div>
-                            <div class="modal-footer">
+                            <div className="modal-footer">
                                 {ProductId === 0 ?
                                     <button type="button"
                                         className="btn btn-primary float-start"
